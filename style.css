@@ -112,3 +112,11 @@
     .video video {
         height: 310px;
     }
+    @media screen and (max-width:780px){
+        .whitebox{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+    }
