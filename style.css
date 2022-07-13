@@ -5,13 +5,12 @@
     }
     
     .container {
-        height: 1090px;
-        background-color: #e0dddd; 
+        background-color: #b1acac; 
         overflow: auto;
     }
     
     .back {
-        background-color: #ededed;
+        /* background-color: #ededed; */
         display: flex;
         flex-direction: column;
     }
