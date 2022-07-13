@@ -1,22 +1,19 @@
-    .body {
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
     .container {
-        height: 1620px;
-        background-color: #ededed;
+        height: 1090px;
+        background-color: #e0dddd; 
+        overflow: auto;
     }
     
     .back {
         background-color: #ededed;
         display: flex;
         flex-direction: column;
-    }
-    
-    .bottom {
-        background-color: #ededed;
     }
     
     .top {
@@ -26,13 +23,13 @@
         display: flex;
         align-items: center;
         padding-left: 200px;
-        justify-items: flex-start;
-        margin-top: -90px;
+        justify-items:center;
+        margin-top: -110px;
     }
     
     .top p {
         color: white;
-        font-size: 22px;
+        font-size: 14px;
         font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
         margin-left: 15px;
         font-weight: 500;
@@ -40,46 +37,55 @@
     }
     
     .top img {
-        height: 18%;
+        height: 12%;
+        margin-left: 210px;
     }
     
     .whitebox {
-        height: 1200px;
-        width: 1250px;
+        height: 900px;
+        width:880px;
         border: 1px solid whitesmoke;
         box-shadow: 0 2px 9px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-        display: grid;
-        grid-template-columns: 800px 450px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: inherit;
         justify-items: center;
-        margin-left: 300px;
-        padding: 40px;
+        align-items: center;
+        margin-left: 500px;  
         position: absolute;
+        z-index: 1;
         top: 150px;
         background-color: white;
         border-radius: 5px;
-        grid-template-rows: 650px 550px;
+        padding-top: 70px;
+        
     }
-    
+    .main-display{
+        display: flex;
+        column-gap: 80px;
+    }
     .use-app {
         color: #41525d;
     }
     
     .use-app h1 {
         font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        font-size: 40px;
+        font-size: 27px;
         font-weight: lighter;
     }
     
     .use-app p {
         font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        font-size: 27px;
+        font-size: 17px;
         line-height: 3em;
     }
     
     .use-app a {
         text-decoration: none;
         color: #008069;
-        font-size: 22px;
+        font-size: 15px;
+        margin-top: 30px;
     }
     
     .qr-code {
@@ -87,15 +93,22 @@
     }
     
     .qr-code img {
-        height: 400px;
-        margin-top: 50px;
+        height: 270px;
+        margin: auto;
+        max-width: 264px;
     }
     
     .video {
-        margin-left: 400px;
-        /* background-color: #ededed; */
+        margin: auto;
+        height: 450px;
+        width: 100%;
+        background-color: #0B141A06;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 0;
     }
     
     .video video {
-        height: 470px;
+        height: 310px;
     }
