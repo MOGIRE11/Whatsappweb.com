@@ -1,108 +1,128 @@
-.body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    height: 1620px;
-    width: 100%;
-    background-color: #ededed;
-    overflow: hidden;
-}
-
-.back {
-    background-color: #ededed;
-    display: flex;
-    flex-direction: column;
-}
-
-.bottom {
-    background-color: #ededed;
-}
-
-.top {
-    height: 330px;
-    width: 100%;
-    background-color: #00a884;
-    display: flex;
-    align-items: center;
-    padding-left: 200px;
-    justify-items: flex-start;
-    margin-top: -90px;
-}
-
-.top p {
-    color: white;
-    font-size: 22px;
-    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-    margin-left: 15px;
-    font-weight: 500;
-    vertical-align: middle;
-}
-
-.top img {
-    height: 18%;
-}
-
-.whitebox {
-    height: 1200px;
-    width: 1250px;
-    border: 1px solid whitesmoke;
-    box-shadow: 0 2px 9px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    display: grid;
-    grid-template-columns: 800px 450px;
-    justify-items: center;
-    margin-left: 300px;
-    padding: 40px;
-    position: absolute;
-    top: 150px;
-    background-color: white;
-    border-radius: 5px;
-    grid-template-rows: 650px 550px;
-}
-
-.use-app {
-    color: #41525d;
-}
-
-.use-app h1 {
-    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-    font-size: 40px;
-    font-weight: lighter;
-}
-
-.use-app p {
-    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-    font-size: 27px;
-    line-height: 3em;
-}
-
-.use-app a {
-    text-decoration: none;
-    color: #008069;
-    font-size: 22px;
-}
-
-.qr-code {
-    padding-right: -60px;
-}
-
-.qr-code img {
-    height: 400px;
-    margin-top: 50px;
-}
-
-.video {
-    margin-left: 400px;
-}
-
-.video video {
-    height: 470px;
-}
-
-@media screen and (min-width:500px) {
-    .body {
-        background-color: blue;
-    }
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: #e1e0dd;
+     padding: 0 10px;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .back {
+     background: scroll;
+ }
+ 
+ .top {
+     height: 220px;
+     width: 100%;
+     background-color: #00a884;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ .top img {
+     width: 40px;
+     object-fit: contain;
+ }
+ 
+ .bottom {
+     background-color: #00a884;
+ }
+ 
+ .whitebox {
+     width: 50%;
+     height: 850px;
+     border: 1px solid #bdbfbe;
+     box-shadow: 0px 2px 12px 0px #00a884;
+     background-color: white;
+     border-radius: 7px;
+ }
+ 
+ .main-display {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     padding: 10px;
+     column-gap: 10px;
+     padding: 20px;
+ }
+ 
+ .use-app {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 18px;
+     line-height: 28px;
+     color: #3B4A54;
+     line-height: 2.5em;
+ }
+ 
+ h1 {
+     font-weight: 200;
+     font-size: 27px;
+     color: #41525D;
+ }
+ 
+ .qr-code {
+     margin: auto;
+ }
+ 
+ .qr-code img {
+     width: 70%;
+     max-width: 100%;
+ }
+ 
+ .video {
+     background-color: #f9f9f9;
+     /* height: 50%; */
+     width: 100%;
+     max-width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0;
+ }
+ 
+ .video video {
+     max-width: 100%;
+ }
+ 
+ @media (max-width:764px) {
+     .whitebox {
+         width: 100%;
+         padding: 5px;
+         font-size: 13px;
+     }
+     .main-display {
+         flex-wrap: wrap;
+     }
+ }
+ 
+ @media (min-width:764px) {
+     .whitebox {
+         width: 80%;
+     }
+ }
+ 
+ @media (min-width:764px) {
+     .whitebox {
+         width: 50%;
+     }
+ }
+ 
+ @media(max-width:480px) {
+     .whitebox {
+         font-size: small;
+         width: 100%;
+     }
+ }
