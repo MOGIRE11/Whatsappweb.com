@@ -1,101 +1,108 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 1620px;
+    width: 100%;
+    background-color: #ededed;
+    overflow: hidden;
+}
+
+.back {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    background-color: #ededed;
+}
+
+.top {
+    height: 330px;
+    width: 100%;
+    background-color: #00a884;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    justify-items: flex-start;
+    margin-top: -90px;
+}
+
+.top p {
+    color: white;
+    font-size: 22px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    margin-left: 15px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.top img {
+    height: 18%;
+}
+
+.whitebox {
+    height: 1200px;
+    width: 1250px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 2px 9px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display: grid;
+    grid-template-columns: 800px 450px;
+    justify-items: center;
+    margin-left: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    border-radius: 5px;
+    grid-template-rows: 650px 550px;
+}
+
+.use-app {
+    color: #41525d;
+}
+
+.use-app h1 {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.use-app p {
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 27px;
+    line-height: 3em;
+}
+
+.use-app a {
+    text-decoration: none;
+    color: #008069;
+    font-size: 22px;
+}
+
+.qr-code {
+    padding-right: -60px;
+}
+
+.qr-code img {
+    height: 400px;
+    margin-top: 50px;
+}
+
+.video {
+    margin-left: 400px;
+}
+
+.video video {
+    height: 470px;
+}
+
+@media screen and (min-width:500px) {
     .body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+        background-color: blue;
     }
-    
-    .container {
-        height: 1620px;
-        background-color: #ededed;
-    }
-    
-    .back {
-        background-color: #ededed;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .bottom {
-        background-color: #ededed;
-    }
-    
-    .top {
-        height: 330px;
-        width: 100%;
-        background-color: #00a884;
-        display: flex;
-        align-items: center;
-        padding-left: 200px;
-        justify-items: flex-start;
-        margin-top: -90px;
-    }
-    
-    .top p {
-        color: white;
-        font-size: 22px;
-        font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        margin-left: 15px;
-        font-weight: 500;
-        vertical-align: middle;
-    }
-    
-    .top img {
-        height: 18%;
-    }
-    
-    .whitebox {
-        height: 1200px;
-        width: 1250px;
-        border: 1px solid whitesmoke;
-        box-shadow: 0 2px 9px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-        display: grid;
-        grid-template-columns: 800px 450px;
-        justify-items: center;
-        margin-left: 300px;
-        padding: 40px;
-        position: absolute;
-        top: 150px;
-        background-color: white;
-        border-radius: 5px;
-        grid-template-rows: 650px 550px;
-    }
-    
-    .use-app {
-        color: #41525d;
-    }
-    
-    .use-app h1 {
-        font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        font-size: 40px;
-        font-weight: lighter;
-    }
-    
-    .use-app p {
-        font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
-        font-size: 27px;
-        line-height: 3em;
-    }
-    
-    .use-app a {
-        text-decoration: none;
-        color: #008069;
-        font-size: 22px;
-    }
-    
-    .qr-code {
-        padding-right: -60px;
-    }
-    
-    .qr-code img {
-        height: 400px;
-        margin-top: 50px;
-    }
-    
-    .video {
-        margin-left: 400px;
-        /* background-color: #ededed; */
-    }
-    
-    .video video {
-        height: 470px;
-    }
+}
