@@ -1,15 +1,16 @@
+@import url('/Fonts/WEB/css/switzer.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87); */
-  background-color: #242424;
+  /* background-color: #242424;
+  color: rgba(255, 255, 255, 0.87); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,10 +18,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Switzer-Variable ,system-ui;
 }
 
 body {
@@ -28,8 +32,15 @@ body {
   min-height: 100dvh;
 }
 
+/* Navbar */
+.content-items {
+  @apply tracking-[0.03rem] py-[1rem] px-[0.5rem] cursor-pointer hover:bg-[whitesmoke];
+}
+/* Navbar styling  ends here*/
+
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9;
+    color: black; */
   }
 }
