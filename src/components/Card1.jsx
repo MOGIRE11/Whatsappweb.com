@@ -1,4 +1,4 @@
-export default function NewsCard() {
+export default function Card1() {
   return (
     <>
       <div className="NewsCard-wrapper w-full max-w-[20rem] border rounded-md bg-neutral-100 overflow-hidden flex flex-col shadow-lg">

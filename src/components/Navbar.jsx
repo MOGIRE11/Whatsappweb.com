@@ -10,8 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navigation-wrapper w-[20rem] max-w-[20rem]border self-start      
-    // sticky top-0 z-10
+    <nav className="navigation-wrapper w-[20rem] max-w-[20rem]border self-start relative
      rounded-t-md bg-white border border-neutral-200">
       <div className="p-4 h-[60px] flex items-center justify-between w-full container mx-auto">
         <div className="logo">
@@ -24,12 +23,12 @@ export default function Navbar() {
           {!isOpen ? (
             <button
               type="button"
-              className="menubar flex flex-col items-end gap-1 px-2 rounded-md active:translate-y-[2px]"
+              className="menubar flex flex-col items-end gap-1 px-2 rounded-md hover:bg-neutral-100 hover:border p-2 active:translate-y-[2px]"
               onClick={toggleMenu}
             >
               <div className="line bg-black rounded-lg h-[2px] w-[21px]"></div>
-              <div className="line bg-black rounded-lg h-[2px] w-[21px]"></div>
-              <div className="line bg-black rounded-lg h-[2px] w-[21px]"></div>
+              <div className="line bg-black rounded-lg h-[2px] w-[17px]"></div>
+              <div className="line bg-black rounded-lg h-[2px] w-[13px]"></div>
             </button>
           ) : (
             <button
@@ -45,9 +44,9 @@ export default function Navbar() {
           {isOpen ? (
             <section
               id="menu-content"
-              className="w-full overflow-hidden 
+              className=" overflow-hidden 
               transition-all
-            // absolute top-[3.75rem] left-0 z-10
+              absolute top-[3.75rem] left-0 w-full z-10
                 pt-2 bg-neutral-100/20 backdrop-blur-lg rounded-b-md"
               onClick={toggleMenu}
             >
