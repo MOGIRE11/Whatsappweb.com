@@ -8,7 +8,7 @@ export default function Card3(){
               alt="product-photo"
               className="h-48 w-full object-cover object-center"
             />
-            <span className="py-1 px-3 border border-transparent absolute top-1 rounded-lg left-1 text-sm font-bold backdrop-blur-md bg-neutral-100 tracking-wide">GEAR</span>
+            <span className="py-1 px-3 border border-transparent absolute top-1 rounded-lg left-1 text-sm font-bold backdrop-blur-md bg-neutral-100 tracking-wide text-black">GEAR</span>
           </section>
           
           <h2 className="mt-4 font-semibold tracking-wide">Premium Earbuds</h2>
