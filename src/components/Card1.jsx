@@ -1,7 +1,7 @@
 export default function Card1() {
   return (
     <>
-      <div className="NewsCard-wrapper w-full max-w-[20rem] border rounded-md bg-neutral-100 overflow-hidden flex flex-col shadow-lg">
+      <div className="NewsCard-wrapper w-full max-w-[20rem] border rounded-md bg-neutral-100 overflow-hidden flex flex-col shadow-lg hover:shadow-none">
         <section className="p-1 flex items-center gap-3 bg-white shadow-sm">
           <div className="dp size-10 bg-neutral-200 rounded-full overflow-hidden">
             <img
@@ -54,7 +54,7 @@ export default function Card1() {
 
             <div className="text-sm p-1">
               <p className="my-2 text-black">
-                November has been renamed Movember ! It is the Men's health
+                November has been renamed Movember ! It is the Men&apos;s health
                 awareness ... <span className="text-blue-700 hover:underline transition-all cursor-pointer">Read more</span>
               </p>
               <p className=" border w-1/2 flex justify-between items-center px-2 rounded-full mt-2 bg-neutral-100 text-neutral-700 font-bold cursor-pointer hover:bg-neutral-200 transition-colors">
