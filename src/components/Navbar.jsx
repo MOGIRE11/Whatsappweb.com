@@ -10,11 +10,16 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navigation-wrapper w-[20rem] max-w-[20rem]border self-start relative
-     rounded-t-md bg-white border border-neutral-200">
+    <nav
+      className="navigation-wrapper w-[20rem] max-w-[20rem]border self-start relative
+     rounded-t-md bg-white border border-neutral-200"
+    >
       <div className="p-4 h-[60px] flex items-center justify-between w-full container mx-auto">
         <div className="logo">
-          <a className="tracking-wide cursor-pointer text-black font-medium" onClick={closeMenu}>
+          <a
+            className="tracking-wide cursor-pointer text-black font-medium"
+            onClick={closeMenu}
+          >
             Swedoc UI
           </a>
         </div>
@@ -23,7 +28,7 @@ export default function Navbar() {
           {!isOpen ? (
             <button
               type="button"
-              className="menubar flex flex-col items-end gap-1 px-2 rounded-md hover:bg-neutral-100 hover:border p-2 active:translate-y-[2px]"
+              className="menubar flex flex-col items-end gap-1 px-2 rounded-md hover:bg-neutral-100 border border-transparent p-2 hover:border-neutral-200 active:translate-y-[2px]"
               onClick={toggleMenu}
             >
               <div className="line bg-black rounded-lg h-[2px] w-[21px]"></div>
@@ -33,10 +38,14 @@ export default function Navbar() {
           ) : (
             <button
               type="button"
-              className="menubar px-2 rounded-md text-5xl font-light hover:bg-[whitesmoke] active:translate-y-[2px] text-black"
-              onClick={toggleMenu} 
+              className="menubar p-2 rounded-md hover:bg-[whitesmoke] active:translate-y-[2px] text-black border border-transparent hover:border-neutral-200"
+              onClick={toggleMenu}
             >
-              &times;
+              <img
+                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iT3V0bGluZSIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PHBhdGggZD0iTTIzLjcwNy4yOTNoMGExLDEsMCwwLDAtMS40MTQsMEwxMiwxMC41ODYsMS43MDcuMjkzYTEsMSwwLDAsMC0xLjQxNCwwaDBhMSwxLDAsMCwwLDAsMS40MTRMMTAuNTg2LDEyLC4yOTMsMjIuMjkzYTEsMSwwLDAsMCwwLDEuNDE0aDBhMSwxLDAsMCwwLDEuNDE0LDBMMTIsMTMuNDE0LDIyLjI5MywyMy43MDdhMSwxLDAsMCwwLDEuNDE0LDBoMGExLDEsMCwwLDAsMC0xLjQxNEwxMy40MTQsMTIsMjMuNzA3LDEuNzA3QTEsMSwwLDAsMCwyMy43MDcuMjkzWiIvPjwvc3ZnPg=="
+                alt=""
+                className="size-4"
+              />
             </button>
           )}
 
@@ -67,10 +76,7 @@ export default function Navbar() {
                   Our Manifesto
                 </a>
 
-                <a
-                  onClick={toggleMenu}
-                  className="content-items"
-                >
+                <a onClick={toggleMenu} className="content-items">
                   Our Creative Team
                 </a>
               </div>
