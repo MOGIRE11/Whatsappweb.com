@@ -9,42 +9,42 @@ const OTPInput = () => {
          Please enter the code sent to your phone.
        </p>
 
-       <div className="input-group flex items-center justify-between gap-2 my-12">
-         <div className="left-btn-group space-x-1.5">
+       <div className="input-group flex items-center justify-between gap-2 my-12 bg-white">
+         <div className="left-btn-group space-x-1.5 flex">
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
          </div>
 
          <div className="line w-6 h-0.5 rounded-full bg-neutral-300"></div>
 
-         <div className="left-btn-group space-x-1.5">
+         <div className="left-btn-group space-x-1.5 flex">
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
            <input
              type="text"
              maxLength="1"
-             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center"
+             className="size-10 text-center text-lg border border-dashed border-neutral-400 rounded-md focus:outline-none focus:border-blue-500 text-center bg-white"
            />
          </div>
        </div>
