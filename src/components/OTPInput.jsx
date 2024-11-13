@@ -1,7 +1,7 @@
 const OTPInput = () => {
  return (
    <>
-     <div className="OTPIput-wrapper text-black tracking-wide border p-4 rounded-lg border border-neutral-200 text-center bg-white shadow-lg">
+     <div className="OTPIput-wrapper text-black tracking-wide border p-4 rounded-lg border border-neutral-200 text-center bg-white shadow-lg w-full max-w-[20rem]">
        <h1 className="text-xl font-semibold text-neutral-800">
          Authenticate Your Account
        </h1>
@@ -50,10 +50,10 @@ const OTPInput = () => {
        </div>
 
        <div className="button-group w-full flex items-center justify-between gap-4">
-         <button className="outline-none focus:outline-none">
+         <button className="outline-none focus:outline-none hover:bg-neutral-100 py-2 px-4 rounded-md border border-transparent hover:border-neutral-300 transition-colors">
            Resend code
          </button>
-         <button className=" border border-blue-500 bg-blue-400 rounded-md py-2 px-4 text-white  hover:bg-blue-500 hover:border-blue-600 transition-colors active:translate-y-[2px]">
+         <button className=" border border-blue-500 bg-blue-500 rounded-md py-2 px-4 text-white  hover:bg-blue-600 hover:border-blue-600 transition-colors active:translate-y-[2px]">
            Submit code
          </button>
        </div>
@@ -63,30 +63,3 @@ const OTPInput = () => {
 };
 
 export default OTPInput;
-
-/*
-<div className="flex items-center justify-center space-x-4">
-      
-      <input
-        type="text"
-        maxLength="1"
-        className="w-12 h-12 text-center text-2xl border border-neutral-300 rounded-md focus:outline-none focus:border-blue-500"
-      />
-      <input
-        type="text"
-        maxLength="1"
-        className="w-12 h-12 text-center text-2xl border border-neutral-300 rounded-md focus:outline-none focus:border-blue-500"
-      />
-      <div className="border-r-2 h-12"></div> 
-      <input
-        type="text"
-        maxLength="1"
-        className="w-12 h-12 text-center text-2xl border border-neutral-300 rounded-md focus:outline-none focus:border-blue-500"
-      />
-      <input
-        type="text"
-        maxLength="1"
-        className="w-12 h-12 text-center text-2xl border border-neutral-300 rounded-md focus:outline-none focus:border-blue-500"
-      />
-    </div>
-*/
