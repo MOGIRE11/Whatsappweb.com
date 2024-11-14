@@ -6,6 +6,7 @@ import Card5 from "./components/Card5";
 import CardSkeleton from "./components/CardSkeleton";
 import Navbar from "./components/Navbar";
 import OTPInput from "./components/OTPInput";
+import SignIn from "./components/SignIn";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Navbar />
         <CardSkeleton />
         <OTPInput />
+        <SignIn></SignIn>
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 const CardSkeleton = () => {
   return (
     <>
-      <div className="cardskeleton-wrapper text-black w-full max-w-[20rem] border border-neutral-200 px-2 py-4 rounded-lg bg-white">
+      <div className="cardskeleton-wrapper text-black w-full max-w-[20rem] border border-neutral-200 p-4 rounded-lg bg-white">
         <section className="flex gap-2 animate-pulse">
           <div className="dp size-12 rounded-full bg-neutral-200">
             {/* profile picture section */}

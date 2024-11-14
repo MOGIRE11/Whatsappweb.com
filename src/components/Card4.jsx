@@ -2,7 +2,7 @@
 export default function Card4(){
     return (
       <>
-        <div className="w-full max-w-[20rem] border bg-neutral-100 text-black rounded-lg overflow-hidden p-2">
+        <div className="w-full max-w-[20rem] border bg-neutral-100 text-black rounded-lg overflow-hidden p-4">
           <div className="img-container overflow-hidden">
             <img
               src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4584840-e590-4cdc-b44a-16f1432e6fc8/NIKE+DUNK+LOW+RETRO+SE.png"
