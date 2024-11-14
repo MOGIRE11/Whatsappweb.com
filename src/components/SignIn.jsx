@@ -2,19 +2,19 @@
 const SignIn = () => {
   return (
     <>
-      <div className="signin-wrapper w-full max-w-[20rem] border bg-white overflow-hidden rounded-lg shadow-lg p-4 text-black tracking-wide">
-        <h2 className="underline underline-offset-2 font-semibold text-lg">
+      <div className="signin-wrapper w-full max-w-[20rem] border bg-white overflow-hidden rounded-lg shadow-lg  text-black tracking-wide">
+        <h2 className="text-center font-semibold text-lg border-b bg-neutral-100 border-neutral-200 p-2">
           Sign in to continue
         </h2>
 
-        <form className="mt-4 space-y-4">
+        <form className="mt-2 space-y-4 p-4">
           <div className="email-input">
-            <label htmlFor="email" className="text-sm">
+            <label htmlFor="email" className="text-neutral-800">
               Enter email Address
             </label>
             <input
               type="email"
-              className="h-10 border border-neutral-300 w-full rounded-md mt-1 outline-none focus:border-blue-400 px-2 placeholder:text-xs bg-white"
+              className="h-10 border border-neutral-300 w-full rounded-md mt-1 outline-none focus:border-blue-400 px-2 placeholder:text-sm bg-white"
               id="email"
               name="User-email"
               placeholder="johndoe@gmail.com"
@@ -23,12 +23,12 @@ const SignIn = () => {
           </div>
 
           <div className="password-input">
-            <label htmlFor="password" className="text-sm">
+            <label htmlFor="password" className="text-neutral-800">
               Enter Password
             </label>
             <input
               type="email"
-              className="h-10 border border-neutral-300 w-full rounded-md mt-1 mb-2 outline-none focus:border-blue-400 px-2 placeholder:text-xs bg-white"
+              className="h-10 border border-neutral-300 w-full rounded-md mt-1 mb-2 outline-none focus:border-blue-400 px-2 placeholder:text-sm bg-white"
               id="password"
               name="User-password"
               placeholder="Password"
@@ -36,7 +36,7 @@ const SignIn = () => {
             />
             <a
               href="/forgot password"
-              className="text-xs text-blue-500 underline underline-offset-2"
+              className="text-sm text-blue-600 underline underline-offset-2"
             >
               Forgot Password ?
             </a>
