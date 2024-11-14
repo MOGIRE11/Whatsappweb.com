@@ -13,7 +13,7 @@ export default function Card3(){
           
           <h2 className="mt-4 font-semibold tracking-wide">Premium Earbuds</h2>
           
-          <p className="text-neutral-500 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eti lorem iwltfck guten .</p>
+          <p className="text-neutral-500 my-3">Get the top notch audio experience with these noise cancelling earbuds without breaking your bank . </p>
           
           <p className="price font-semibold tracking-wide">$389.99 USD</p>
         </div>

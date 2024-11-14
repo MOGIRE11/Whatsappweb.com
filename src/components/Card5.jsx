@@ -11,15 +11,15 @@
           <section className="space-y-6 py-2 px-4">
             <div className="heading mt-1">
               <h1 className="font-semibold text-lg text-neutral-800">
-                Advanced Card
+                Swedoc UI
               </h1>
-              <h2 className="text-neutral-500 text-sm">Card subtitle</h2>
+              <h2 className="text-neutral-500 text-sm">Component Library</h2>
             </div>
 
-            <p className="text-sm text-pretty">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Inventore sed consequunt error repudiandae numquam deserunt
-              quisquam repellat sed consequuntur .
+            <p className="text-sm text-pretty text-neutral-900">
+              Quickly get a project started with any of our examples ranging
+              from using parts of the framework to custom components and
+              layouts.
             </p>
 
             <div className="button-group flex items-center gap-4">
