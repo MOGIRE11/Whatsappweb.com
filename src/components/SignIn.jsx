@@ -62,7 +62,7 @@ const SignIn = () => {
             <section className="flex items-center text-sm gap-2 text-neutral-700">
               <input
                 type="checkbox"
-                className="accent-blue-500 cursor-pointer"
+                className="accent-blue-500 cursor-pointer bg-white"
                 id="remember-me"
               />
               <label htmlFor="remember-me">Remember me</label>
